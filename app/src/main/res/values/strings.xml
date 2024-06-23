@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Juego</string>
+    <string name="Titulo">Atrapa el topo</string>
+    <string name="btnJugar">Jugar</string>
+    <string name="tvVersion">Version 0.1</string>
+    <string name="puntaje">Puntaje</string>
+    <string name="tiempo">Tiempo</string>
+    <string name="numPuntaje">1020</string>
+    <string name="numTiempo">3:10</string>
+</resources>
