@@ -19,10 +19,11 @@
             android:name=".esperoFuncione"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".viewJuego"
+
             android:exported="false" />
         <activity
-            android:name=".viewJuego"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
