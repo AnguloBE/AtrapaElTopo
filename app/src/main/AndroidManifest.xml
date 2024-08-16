@@ -22,6 +22,9 @@
         android:theme="@style/Theme.Juego"
         tools:targetApi="31">
         <activity
+            android:name=".Leaderboard"
+            android:exported="false" />
+        <activity
             android:name=".GameOverActivity"
             android:exported="false" />
         <activity
