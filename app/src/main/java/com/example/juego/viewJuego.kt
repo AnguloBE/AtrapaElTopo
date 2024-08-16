@@ -35,7 +35,7 @@ class viewJuego : AppCompatActivity() {
         scoreTextView.text = "Score: 0"
         val timerTextView = findViewById<TextView>(R.id.textView6)
         timerTextView.text = "Time: 0 s"
-        game = Game(scoreTextView, timerTextView)
+        game = Game(scoreTextView, timerTextView, this)
 
         val gridLayout = findViewById<GridLayout>(R.id.gridLayout)
 

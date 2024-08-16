@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "473121236564",
+    "project_id": "juego-620c3",
+    "storage_bucket": "juego-620c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473121236564:android:d7d574fe32aefe42db2fc1",
+        "android_client_info": {
+          "package_name": "com.example.juego"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5rj-fNV9UV7tIfRWpgO2oZAwxUis0QR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
