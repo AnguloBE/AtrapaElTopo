@@ -2,6 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.READ_MEDIA_IMAGES"
+        android:required="false"
+        tools:targetApi="33" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,17 +22,27 @@
         android:theme="@style/Theme.Juego"
         tools:targetApi="31">
         <activity
-            android:name=".InicioSesion"
+            android:name=".GameOverActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ajustes"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".esperoFuncione"
             android:exported="false" />
         <activity
             android:name=".viewJuego"
-
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".InicioSesion"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
