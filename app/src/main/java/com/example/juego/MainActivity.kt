@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         }
         val btnJugar = findViewById<Button>(R.id.btnJugar)
         val btnAjustes = findViewById<Button>(R.id.btnAjustes)
+        val btnLeaderboard = findViewById<Button>(R.id.btnLeaderboard)
 
         btnJugar.setOnClickListener {
             val intent = Intent(this@MainActivity,viewJuego::class.java)
@@ -30,5 +31,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this@MainActivity,ajustes::class.java)
             startActivity(intent)
         }
+
+        btnLeaderboard.setOnClickListener {
+            val intent = Intent(this@MainActivity,Leaderboard::class.java)
+            startActivity(intent)
+        }
+
     }
 }
