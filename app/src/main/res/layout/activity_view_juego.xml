@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".viewJuego"
-    android:background="@color/lightGreen"
+    android:background="@drawable/fondo"
     >
 
     <View
@@ -93,7 +93,6 @@
         android:columnCount="5"
         android:rowCount="5"
         android:padding="10dp"
-        android:background="@color/brow"
         >
 
         <!--row 0 -->
@@ -106,7 +105,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:src="@drawable/agujero" />
+            android:src="@drawable/hueco" />
 
         <ImageView
             android:id="@+id/iv10"
@@ -117,7 +116,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:src="@drawable/agujero" />
+            android:src="@drawable/hueco" />
 
         <ImageView
             android:id="@+id/iv20"
@@ -128,7 +127,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:src="@drawable/agujero" />
+            android:src="@drawable/hueco" />
 
         <ImageView
             android:id="@+id/iv30"
@@ -139,7 +138,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:src="@drawable/agujero" />
+            android:src="@drawable/hueco" />
 
         <ImageView
             android:id="@+id/iv40"
@@ -150,7 +149,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:src="@drawable/agujero" />
+            android:src="@drawable/hueco" />
 
         <!--row 1 -->
         <ImageView
@@ -162,7 +161,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:src="@drawable/agujero" />
+            android:src="@drawable/hueco" />
 
         <ImageView
             android:id="@+id/iv11"
@@ -173,7 +172,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:src="@drawable/agujero" />
+            android:src="@drawable/hueco" />
 
         <ImageView
             android:id="@+id/iv21"
@@ -184,7 +183,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:src="@drawable/agujero" />
+            android:src="@drawable/hueco" />
 
         <ImageView
             android:id="@+id/iv31"
@@ -195,7 +194,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:src="@drawable/agujero" />
+            android:src="@drawable/hueco" />
 
         <ImageView
             android:id="@+id/iv41"
@@ -206,7 +205,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:src="@drawable/agujero" />
+            android:src="@drawable/hueco" />
         <!--row 2 -->
         <ImageView
             android:id="@+id/iv02"
@@ -217,7 +216,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:src="@drawable/agujero" />
+            android:src="@drawable/hueco" />
 
         <ImageView
             android:id="@+id/iv12"
@@ -228,7 +227,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:src="@drawable/agujero" />
+            android:src="@drawable/hueco" />
 
         <ImageView
             android:id="@+id/iv22"
@@ -239,7 +238,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:src="@drawable/agujero" />
+            android:src="@drawable/hueco" />
 
         <ImageView
             android:id="@+id/iv32"
@@ -250,7 +249,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:src="@drawable/agujero" />
+            android:src="@drawable/hueco" />
 
         <ImageView
             android:id="@+id/iv42"
@@ -261,7 +260,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:src="@drawable/agujero" />
+            android:src="@drawable/hueco" />
         <!--row 3 -->
         <ImageView
             android:id="@+id/iv03"
@@ -272,7 +271,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:src="@drawable/agujero" />
+            android:src="@drawable/hueco" />
 
         <ImageView
             android:id="@+id/iv13"
@@ -283,7 +282,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:src="@drawable/agujero" />
+            android:src="@drawable/hueco" />
 
         <ImageView
             android:id="@+id/iv23"
@@ -294,7 +293,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:src="@drawable/agujero" />
+            android:src="@drawable/hueco" />
 
         <ImageView
             android:id="@+id/iv33"
@@ -305,7 +304,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:src="@drawable/agujero" />
+            android:src="@drawable/hueco" />
 
         <ImageView
             android:id="@+id/iv43"
@@ -316,7 +315,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:src="@drawable/agujero" />
+            android:src="@drawable/hueco" />
         <!--row 4 -->
         <ImageView
             android:id="@+id/iv04"
@@ -327,7 +326,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:src="@drawable/agujero" />
+            android:src="@drawable/hueco" />
 
         <ImageView
             android:id="@+id/iv14"
@@ -338,7 +337,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:src="@drawable/agujero" />
+            android:src="@drawable/hueco" />
 
         <ImageView
             android:id="@+id/iv24"
@@ -349,7 +348,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:src="@drawable/agujero" />
+            android:src="@drawable/hueco" />
 
         <ImageView
             android:id="@+id/iv34"
@@ -360,7 +359,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:src="@drawable/agujero" />
+            android:src="@drawable/hueco" />
 
         <ImageView
             android:id="@+id/iv44"
@@ -371,7 +370,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_gravity="fill"
-            android:src="@drawable/agujero" />
+            android:src="@drawable/hueco" />
 
 
     </GridLayout>

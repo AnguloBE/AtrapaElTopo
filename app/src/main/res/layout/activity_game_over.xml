@@ -28,6 +28,7 @@
         android:layout_marginTop="20dp" />
 
     <Button
+        android:backgroundTint="@color/lightBlue"
         android:id="@+id/playAgainButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -35,6 +36,7 @@
         android:layout_marginTop="20dp" />
 
     <Button
+        android:backgroundTint="@color/lightBlue"
         android:id="@+id/exitButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

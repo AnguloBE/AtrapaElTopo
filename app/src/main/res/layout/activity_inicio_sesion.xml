@@ -18,6 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:backgroundTint="@color/lightBlue"
         android:id="@+id/btnInicioSesion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

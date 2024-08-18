@@ -20,8 +20,8 @@ class ajustes : AppCompatActivity() {
         val btnCamera = findViewById<Button>(R.id.btn1)
 
         // Inicializa imágenes predeterminadas
-        iv1.setImageResource(R.drawable.topo)
-        iv2.setImageResource(R.drawable.topomalo)
+        iv1.setImageResource(R.drawable.topoweno)
+        iv2.setImageResource(R.drawable.topomaloresprite)
 
 
         btnCamera.setOnClickListener {

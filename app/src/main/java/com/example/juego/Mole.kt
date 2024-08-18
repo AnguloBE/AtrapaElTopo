@@ -31,19 +31,19 @@ class Mole(private val imageView: ImageView, private val game: Game) {
 
     fun setEmpty(){
         type= MoleType.empty
-        imageView.setImageResource(R.drawable.agujero)
+        imageView.setImageResource(R.drawable.hueco)
         handler.removeCallbacks(hideRunnable)
     }
 
     fun setGoodMole() {
         type = MoleType.goodMole
-        imageView.setImageResource(R.drawable.topo)
+        imageView.setImageResource(R.drawable.topoweno)
         scheduleHide()
     }
 
     fun setBadMole() {
         type = MoleType.badMole
-        imageView.setImageResource(R.drawable.topomalo)
+        imageView.setImageResource(R.drawable.topomaloresprite)
         scheduleHide()
     }
 

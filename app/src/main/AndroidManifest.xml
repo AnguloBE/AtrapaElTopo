@@ -39,9 +39,6 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".esperoFuncione"
-            android:exported="false" />
-        <activity
             android:name=".viewJuego"
             android:exported="false" />
         <activity
