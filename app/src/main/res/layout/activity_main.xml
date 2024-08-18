@@ -9,31 +9,43 @@
     tools:context=".MainActivity">
 
 
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="340dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.53"
+        app:srcCompat="@drawable/topoweno" />
+
     <Button
         android:id="@+id/btnJugar"
         android:layout_width="174dp"
         android:layout_height="70dp"
         android:backgroundTint="@color/lightBlue"
+        android:rotation="5"
         android:text="@string/btnJugar"
         android:textSize="20dp"
-        android:rotation="5"
         app:layout_constraintBottom_toTopOf="@+id/btnLeaderboard"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94"
+        app:layout_constraintVertical_chainStyle="packed" />
 
     <Button
         android:id="@+id/btnLeaderboard"
         android:layout_width="186dp"
         android:layout_height="66dp"
         android:backgroundTint="@color/lightBlue"
+        android:rotation="-5"
         android:text="Leaderboard"
         android:textSize="20dp"
-        android:rotation="-5"
         app:layout_constraintBottom_toTopOf="@+id/btnAjustes"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnJugar" />
 
@@ -42,12 +54,11 @@
         android:layout_width="177dp"
         android:layout_height="61dp"
         android:backgroundTint="@color/lightBlue"
+        android:rotation="5"
         android:text="Ajustes"
         android:textSize="20dp"
-        android:rotation="5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnLeaderboard" />
 
@@ -63,13 +74,13 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="362dp"
-        android:layout_height="273dp"
+        android:layout_width="394dp"
+        android:layout_height="297dp"
         android:scaleType="centerCrop"
-        app:layout_constraintBottom_toTopOf="@+id/btnJugar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
         app:srcCompat="@drawable/catchyf" />
 </androidx.constraintlayout.widget.ConstraintLayout>
