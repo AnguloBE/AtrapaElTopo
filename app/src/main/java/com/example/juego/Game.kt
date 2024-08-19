@@ -28,7 +28,7 @@ class Game(
     }
 
     fun startTimer() {
-        countDownTimer = object : CountDownTimer(6000, 1000) {
+        countDownTimer = object : CountDownTimer(60000, 1000) {
             override fun onTick(millisUntilFinished: Long) {
                 val secondsRemaining = millisUntilFinished / 1000
                 timerTextView.text = "Time: $secondsRemaining s"
