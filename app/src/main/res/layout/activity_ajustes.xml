@@ -5,13 +5,17 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ajustes">
+    tools:context=".ajustes"
+    android:background="@drawable/fondo">
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cambio de avatares"
+        android:textSize="25dp"
+        android:background="@color/white2"
+        android:padding="8dp"
         app:layout_constraintBottom_toTopOf="@+id/iv2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,8 +23,8 @@
 
     <ImageView
         android:id="@+id/iv1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         app:layout_constraintBottom_toBottomOf="@+id/iv2"
         app:layout_constraintEnd_toStartOf="@+id/iv2"
         app:layout_constraintHorizontal_bias="0.5"
@@ -33,6 +37,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cambiar avatares"
+        android:textSize="20dp"
+        android:padding="13dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,8 +46,8 @@
 
     <ImageView
         android:id="@+id/iv2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         app:layout_constraintBottom_toTopOf="@+id/btn1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
