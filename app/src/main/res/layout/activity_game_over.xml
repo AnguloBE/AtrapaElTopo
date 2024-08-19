@@ -8,6 +8,7 @@
     tools:context=".GameOverActivity"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@drawable/fondo"
     android:padding="16dp">
 
     <TextView
@@ -15,7 +16,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Juego Terminado"
-        android:textSize="24sp"
+        android:textSize="30sp"
+        android:textStyle="bold"
         android:textColor="@android:color/black" />
 
     <TextView
@@ -23,6 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Puntuación: "
+        android:textStyle="bold"
         android:textSize="18sp"
         android:textColor="@android:color/black"
         android:layout_marginTop="20dp" />
@@ -33,6 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Jugar de Nuevo"
+        android:textStyle="bold"
         android:layout_marginTop="20dp" />
 
     <Button
@@ -40,6 +44,7 @@
         android:id="@+id/exitButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
         android:text="Salir"
         android:layout_marginTop="10dp" />
 

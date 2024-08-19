@@ -7,4 +7,5 @@
     <color name="lightGreen">#64F07D</color>
     <color name="brow">#5D3406</color>
     <color name="lightBlue">#009dff</color>
+    <color name="black_transparent">#80000000</color>
 </resources>
